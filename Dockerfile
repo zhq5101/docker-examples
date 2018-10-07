@@ -15,6 +15,6 @@
 FROM redis
 
 COPY run.sh /
-chmod +755 /run.sh
+CMD chmod +755 /run.sh
 
 CMD /run.sh
